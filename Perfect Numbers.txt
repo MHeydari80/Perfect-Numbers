@@ -1,0 +1,33 @@
+// Perfect Numbers
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter your number :\t");
+
+        int valueNumber = input.nextInt();
+        int sum = 0;
+
+        if (valueNumber <= 0) {
+
+            System.out.println("That's not a perfect number !!!");
+
+        } else {
+            for (int i = valueNumber; --i > 0;) {
+
+                if (valueNumber % i == 0) {
+
+                    sum += i;
+
+                }
+
+            }
+
+            if (sum == valueNumber) {
+
+                System.out.println("That's a perfect number !!!");
+
+            } else {
+
+                System.out.println("That's not a perfect number !!!");
+
+            }
+        }

@@ -1,2 +1,2 @@
 # Perfect-Numbers
-تشخیص کامل بودن یا نبودن عدد دریافتی از ورودی
+Displays whether the input number is perfect or not.
